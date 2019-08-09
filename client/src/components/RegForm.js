@@ -2,7 +2,6 @@ import React from "react";
 import { Field, Form, withFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
-import { Link } from "react-router-dom";
 
 class RegForm extends React.Component {
   constructor(props) {
@@ -32,7 +31,6 @@ class RegForm extends React.Component {
             Submit
           </button>
         </Form>
-        <Link to="/data">Data Page</Link>
       </>
     );
   }
