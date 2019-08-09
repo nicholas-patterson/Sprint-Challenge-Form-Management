@@ -24,27 +24,32 @@ In the challenge for this Sprint, you will demonstrate proficiency by creating a
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What are the required parts of class components?
+- [x] What are the required parts of class components?
+      Answer: The required parts of a class component are the render method the return and the constructor if you are using state. But also now you don't have to use the constructor.
 
-- [ ] Name at least three lifecycle methods?
+- [x] Name at least three lifecycle methods?
+      Answer: Three lifecycle methods are componentDidMount, componenetDidUpdate, ComponentWillUpdate.
 
-- [ ] Why are forms used so often in web applications and software?
+- [x] Why are forms used so often in web applications and software?
+      Answer: Forms are used so often in web applications and software to fet user input.
 
-- [ ] What advantages are there by using a forms library like Formik?
+- [x] What advantages are there by using a forms library like Formik?
+      Answer: Some advantages are Formik does a lot of things under the hood for us. It keeps our components from looking too cluttered. Also It handles the onChange and state of the fields for us.
 
-- [ ] Why do we write tests for our apps?
+- [x] Why do we write tests for our apps?
+      Answer: We write test for our apps to make sure things are running smooth and that things are actually showing on the screen when they are supposed too.
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [x] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
 
-- [ ] Implement the project on this Branch, **committing progress & changes often.**
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [x] Implement the project on this Branch, **committing progress & changes often.**
+- [x] Push commits: `git push origin <firstName-lastName>`.
 - [ ] Navigate to the BE folder in this repository (this is where your server is located) from the command line, install the dependencies, and run `yarn start` or `npm start` to spin up the server provided for you.
 - [ ] In the terminal, navigate back to the main folder, then into the `client` folder.
 - [ ] Create your React app here.
